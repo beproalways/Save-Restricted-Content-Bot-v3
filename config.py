@@ -22,7 +22,7 @@ YTUB_COOKIES = """
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
 API_ID       = os.getenv("API_ID", "36859402")
 API_HASH     = os.getenv("API_HASH", " 6edbd58acf9d0dc413b61aaf0fcf11a8")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "8937165657:AAFmE9Y-Ge0jA4TjclXV3a_UV0MntL9an7A")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
 MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://srcbhaisrc:srcbhaisrc@7206@cluster0.thwm8x7.mongodb.net/?appName=Cluster0")
 DB_NAME      = os.getenv("DB_NAME", "srcbhaisrc")
 
