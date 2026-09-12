@@ -29,7 +29,7 @@ DB_NAME      = os.getenv("DB_NAME", "srcbhaisrc")
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
 OWNER_ID     = list(map(int, os.getenv("OWNER_ID", " 7915380485").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
-LOG_GROUP    = int(os.getenv("LOG_GROUP", ""))
+LOG_GROUP    = int(os.getenv("LOG_GROUP", "10044682251662"))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", ""))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
